@@ -1,0 +1,30 @@
+.news-js-content {
+    min-height: 120px;
+    background-color: #656D78;
+}
+
+.news-text {
+    padding: 10px 15px 10px 15px;
+    background-color: #656D78;
+
+    display: flex;
+    align-items: center;
+}
+
+.news-text p {
+    color: #FFFFFF;
+}
+
+.news-row h1 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-row a {
+    color: #FFFFFF;
+}
+
+.news-row a:hover {
+    color: #56a8f5;
+}

@@ -1,0 +1,288 @@
+/* ############ */
+/*  NEWS LIST  */
+/* ############ */
+@media (max-width: 767px) {
+    .news-list {
+        padding-top: 150px;
+    }
+
+    .news-list .date {
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .news-list {
+        padding-top: 200px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .news-list {
+        padding-top: 250px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .news-list {
+        padding-top: 300px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+.news-list .title {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.news-list .title h1 {
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.news-list .title h1 a {
+    color: #FFFFFF;
+}
+
+.news-list .title h1 a:hover {
+    color: #56a8f5;
+}
+
+.news-list .title h1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-list .date {
+    color: #FFFFFF;
+}
+
+.news-content {
+    background-color: #656D78;
+    color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+}
+
+.news-content .BBCodeTitle {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.news-content h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-content h4 {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-content h3 span {
+    background-color: #56a8f5;
+    margin: -35px;
+    padding: 15px 30px 15px 35px;
+
+    line-height: 290%;
+}
+
+.news-list-footer {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+    padding: 15px 15px 15px 15px;
+}
+
+.news-list-footer h2 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.news-list-footer p {
+    text-align: center;
+}
+
+.news-list-footer a {
+    color: #FFFFFF;
+}
+
+.news-list-footer a:hover {
+    color: #56a8f5;
+}
+
+/* DESCRIPTION */
+.description {
+    background-color: #656D78;
+    color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+}
+
+/* MEDIA */
+.img-thumbnail {
+    background-color: #656D78;
+    border: 1px solid #656D78;
+    border-radius: 0;
+}
+
+
+.title a {
+    color: #FFFFFF;
+}
+
+.title a:hover {
+    color: #56a8f5;
+}
+
+.large-article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.large-article p {
+    text-align: justify;
+}
+/*******************************************************
+ * Copyright (C) 2015-2016 guillaume hemmen <guillaume.hemmen@laposte.net>
+ *
+ * This file is part of PlayerZone.
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE', which is part of this source code package.
+ *******************************************************/
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 90%;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 0;
+    background: #4b4a4a;
+    color: #FFFFFF;
+    /*background: -moz-linear-gradient(#fff, #999);*/
+    /*background: -webkit-linear-gradient(#fff, #999);*/
+    /*background: -o-linear-gradient(#fff, #999);*/
+}
+
+.modalDialog > div textarea,
+.modalDialog > div input[type="text"],
+.modalDialog > div input[type="email"],
+.modalDialog > div input[type="password"],
+.modalDialog > div input[type="number"],
+.modalDialog > div select {
+    color: #000000;
+}
+
+.close {
+    background: #656D78;
+    color: #56a8f5;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.close:hover { background: #4A89DC; }
+h1 {
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 span {
+    background-color: #56a8f5;
+    margin: -15px;
+    padding: 15px 30px 15px 35px;
+
+    line-height: 290%;
+}
+
+.event-tag {
+    padding-top: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.news-list-footer form {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.stripe-button-el {
+    border-radius: 20px !important;
+    padding: 10px 20px !important;
+    font-family: DINProBold, Impact, "Arial Black", Arial, Verdana, sans-serif !important;
+    color: #FFFFFF !important;
+    background-color: #56a8f5 !important;
+    border-color: #56a8f5 !important;
+    margin: 2px 0 2px 0 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+.stripe-button-el:hover {
+    background-color: #4A89DC !important;
+    border-color: #4A89DC !important;
+}
+
+.stripe-button-el span {
+    background: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}

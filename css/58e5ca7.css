@@ -1,0 +1,259 @@
+/* ############ */
+/*  NEWS LIST  */
+/* ############ */
+@media (max-width: 767px) {
+    .news-list {
+        padding-top: 150px;
+    }
+
+    .news-list .date {
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .news-list {
+        padding-top: 200px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .news-list {
+        padding-top: 250px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .news-list {
+        padding-top: 300px;
+    }
+
+    .news-list .date {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+.news-list .title {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.news-list .title h1 {
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.news-list .title h1 a {
+    color: #FFFFFF;
+}
+
+.news-list .title h1 a:hover {
+    color: #56a8f5;
+}
+
+.news-list .title h1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-list .date {
+    color: #FFFFFF;
+}
+
+.news-content {
+    background-color: #656D78;
+    color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+}
+
+.news-content .BBCodeTitle {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.news-content h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-content h4 {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-content h3 span {
+    background-color: #56a8f5;
+    margin: -35px;
+    padding: 15px 30px 15px 35px;
+
+    line-height: 290%;
+}
+
+.news-list-footer {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+    padding: 15px 15px 15px 15px;
+}
+
+.news-list-footer h2 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.news-list-footer p {
+    text-align: center;
+}
+
+.news-list-footer a {
+    color: #FFFFFF;
+}
+
+.news-list-footer a:hover {
+    color: #56a8f5;
+}
+
+/* DESCRIPTION */
+.description {
+    background-color: #656D78;
+    color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+}
+
+/* MEDIA */
+.img-thumbnail {
+    background-color: #656D78;
+    border: 1px solid #656D78;
+    border-radius: 0;
+}
+
+
+.title a {
+    color: #FFFFFF;
+}
+
+.title a:hover {
+    color: #56a8f5;
+}
+
+.large-article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.large-article p {
+    text-align: justify;
+}
+.discord-header {
+    background-color: #56a8f5;
+    padding: 10px 20px 5px 20px;
+    color: #FFFFFF;
+}
+
+.discord-logo {
+    /*background: url(../images/discord.svg) 50% no-repeat;*/
+    height: 34px;
+    background-size: 124px 34px;
+}
+
+.discord-body
+{
+    padding: 5px 20px 10px 20px;
+    color: #FFFFFF;
+    background-color: #656D78;
+}
+
+.discord-body p {
+    margin: 0;
+}
+
+.discord-footer {
+    background-color: #1d1d1d;
+    padding: 10px 20px 0 20px;
+    color: #FFFFFF;
+}
+/*******************************************************
+ * Copyright (C) 2015-2016 guillaume hemmen <guillaume.hemmen@laposte.net>
+ *
+ * This file is part of PlayerZone.
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE', which is part of this source code package.
+ *******************************************************/
+
+/*/
+custom size for news
+ */
+@media (max-width: 767px) {
+    .image-slider-height {
+        min-height: 250px;
+    }
+
+    .image-slider {
+        min-height: 250px;
+    }
+
+    .image-slider-bg-disabled {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .image-slider-height {
+        min-height: 415px;
+    }
+
+    .image-slider {
+        min-height: 415px;
+    }
+
+    .image-slider-bg-disabled {
+        min-height: 415px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .image-slider-height {
+        min-height: 415px;
+    }
+
+    .image-slider {
+        min-height: 415px;
+    }
+
+    .image-slider-bg-disabled {
+        min-height: 415px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .image-slider-height {
+        min-height: 515px;
+    }
+
+    .image-slider {
+        min-height: 515px;
+    }
+
+    .image-slider-bg-disabled {
+        min-height: 515px;
+    }
+}
