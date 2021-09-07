@@ -183,10 +183,14 @@ h1 span {
     padding-right: 10%;
 }
 
+.container.pilotes .row {
+	display: flex !important;
+	justify-content: center !important;
+}
+
 /*!
  * FullCalendar v3.4.0 Stylesheet
  * Docs & License: https://fullcalendar.io/
- * (c) 2017 Adam Shaw
  */
 
 
